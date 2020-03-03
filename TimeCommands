@@ -1,0 +1,5 @@
+Comandos TimeQuestAnalyzer
+
+report_path -from {a* b*} -to *y -npaths 20 -panel_name {Report Path}
+
+report_path -from {Add*|data* Add*|cin*} -to {Add*|co*} -npaths 20 -panel_name {Report Path}
